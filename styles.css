@@ -1,0 +1,124 @@
+.block_sits_v2 #academic_container{
+/*background-color:#E8E8E8 ;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow: 2px 2px 10px #484d4c;
+-webkit-box-shadow: 2px 2px 10px #484d4c;
+box-shadow: 2px 2px 10px #484d4c;*/
+}
+.block_sits_v2 #academic_container ul{
+	padding-left:10px;
+}
+.block_sits_v2 #academic_container ul li{
+	padding:5px;
+}
+.block_sits_v2 #academic_container ul li a{
+ 	text-decoration:none;
+}
+.sits_course_mappings_container{
+	background: #EEF3EB;
+}
+.sits_mapping_control{
+padding: 3px;
+margin-bottom:5px;
+font-size: 11px;
+min-width:60px;
+text-align:center;
+background: #EBEBEB;
+margin-left:10px;
+border: 1px solid #696969;
+margin-top: 10px;
+cursor:pointer;
+display: inline;
+}
+.sits_mapping_control:hover{
+	background:#FFF;
+}
+.sits_mapping_control img{vertical-align: middle;margin-right: 6px;}
+
+.sits_course_box {
+	border: 1px solid #D6D2D2;
+margin: 10px;
+border-top: none;
+border-radius: 3px;
+background: #EEF3EB;
+}
+.sits_course_box .toggle_plus_minus{
+	/*background-image : url([[pix:theme|pix_plugins/blocks/sits_v2/plus-white]]);*/
+	vertical-align: middle;
+padding-right: 5px;
+margin-top: -3px;
+	
+}
+.sits_course_box .sits_course_title{
+	padding: 5px;
+	margin-bottom: 10px;
+	background: -webkit-linear-gradient(top, #EEF3EB, #CFCFCF);
+	font-size: 15px;
+	font-weight: bold;
+	/*border-radius: 5px;*/
+	/*-webkit-border-radius : 5px;*/
+	/*-moz-border-radius:5px;*/
+	border: 1px solid #A8A7A7;
+border-top: 1px solid #DDD;
+border-left: none;
+border-right: none;
+border-bottom: none;
+}
+.sits_course_box .sits_course_mappings_area{
+	min-height:100px;
+}
+.sits_mapping_box {
+padding: 10px;
+height: 30px;
+margin-top: 5px;
+margin-left: 5px;
+margin-right: 5px;
+font-size: 12px;
+border: 1px solid #A9C8DD;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D4E4EF), color-stop(100%,#A3BBCC));
+}
+.sits_mapping_box span{
+	padding:3px;
+}
+.sits_course_mappings_controls{
+	padding: 10px;
+	display:none;
+}
+.sits_add_cohort_form label {
+	width: 10em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block
+}
+.sits_v2_network_status_icon {
+	height: 16px;
+	width:16px;
+	float:left;
+	padding:3px;
+}
+.sits_online{
+	background-image: -webkit-linear-gradient(top, #A6DD8D, #4B8F2C);
+}
+.sits_offline{
+	background-image: -webkit-linear-gradient(top, #F3BFAB, #DD5E2D);
+}
+#sits_v2_network_status{
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-family: monospace;
+	color: #FFF;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	vertical-align: baseline;
+	display:inline-block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+#sits_network_refresh img{
+	vertical-align:middle;
+}
+

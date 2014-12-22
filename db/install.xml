@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/sits_v2/db" VERSION="20141222" COMMENT="XMLDB file for Moodle blocks/sits_v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="block_sits_v2" COMMENT="Default comment for block_sits_v2, please edit me">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="sits_period" COMMENT="Contails all the sits periods code with their relevant academic year, start and end dates">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="period_code" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false" COMMENT="Period Slot Code"/>
+        <FIELD NAME="acyear" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" COMMENT="Academic Year in the 20XX/Y format"/>
+        <FIELD NAME="start_date" TYPE="datetime" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="Cohort start date"/>
+        <FIELD NAME="end_date" TYPE="datetime" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="Cohort start date"/>
+        <FIELD NAME="timeupdated" TYPE="datetime" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="Time period slot code was created"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

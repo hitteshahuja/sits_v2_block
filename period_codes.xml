@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<period_codes>
+	<code>AY</code>
+	<code>DIS</code>
+	<code>M0</code>
+	<code>M1</code>
+	<code>M2</code>
+	<code>M3</code>
+	<code>M4</code>
+	<code>M5</code>
+	<code>M6</code>
+	<code>M7</code>
+	<code>M8</code>
+	<code>M9</code>
+	<code>M10</code>
+	<code>M11</code>
+	<code>M12</code>
+	<code>S1</code>
+	<code>S2</code>
+	<code>S3</code>
+	<code>MOD</code>
+	<code>T1</code>
+	<code>T2</code>
+	<code>T3</code>
+</period_codes>
